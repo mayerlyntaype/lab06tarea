@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact - My Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="/">Inicio</a>
+          <a href="/habilidades">Habilidades</a>
+          <a href="/contacto">Contacto</a>
+        </nav>
+      </header>
+
+    <main>
+        <div class="contact-container">
+            <h2 class="contact-title">Contactame</h2>
+            <p class="contact-description">Estare gustosa de atenderte</p>
+            <form class="contact-form" action="/" method="POST">
+                <input class="contact-form-input" type="text" name="name" placeholder="Nombre" required>
+                <input class="contact-form-input" type="email" name="email" placeholder="Email" required>
+                <textarea class="contact-form-textarea" name="message" placeholder="Mensage" required></textarea>
+                <button class="contact-form-btn" type="submit">Send</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+          <p>Portafolio Personal &copy; 2023</p>
+        </div>
+      </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
+
+<style>
+   /* Estilo para el encabezado */
+   body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #e5e2e2;
+  margin: 0;
+}
+
+
+   header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #666;
+}
+
+.nav-link.active {
+  color: #ff6347;
+}
+
+/* Estilo para el contenido principal */
+main {
+  padding-top: 80px;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-description {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-input, .contact-form-textarea {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.contact-form-input:focus, .contact-form-textarea:focus {
+  outline: none;
+  border-color: #ff6347;
+}
+
+.contact-form-input {
+  height: 40px;
+}
+
+.contact-form-textarea {
+  min-height: 120px;
+}
+
+.contact-form-btn {
+  background-color: #ff6347;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.contact-form-btn:hover {
+  background-color: #ff7f50;
+}
+
+/* Estilo para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+</style>

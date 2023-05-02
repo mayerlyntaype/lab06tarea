@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="/">Inicio</a>
+          <a href="/habilidades">Habilidades</a>
+          <a href="/contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Bienvenido a mi portafolio personal</h1>
+        <p class="lead">Mi nombre es Mayerlyn y soy un desarrollador web apasionado. Me encanta crear cosas nuevas y aprender tecnologías emergentes.</p>
+        <p>Echa un vistazo a mi página de habilidades y no dudes en ponerte en contacto conmigo si tienes alguna pregunta o si te interesa colaborar en algún proyecto.</p>
+        <a href="/habilidades" class="btn btn-primary">Ver mis habilidades</a>
+       
+      </div>
+      <img src="/img.jpg"></img>
+      <br>
+      <br>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>Portafolio Personal &copy; 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #e5e2e2;
+  margin: 0;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+img{
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+main {
+  padding: 20px;
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.skill {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.skill img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.skill h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.skill p {
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+</style>

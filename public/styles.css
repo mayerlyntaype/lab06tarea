@@ -1,0 +1,25 @@
+/* Estilos para la navegación */
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  /* Estilos para el encabezado y pie de página */
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    margin: 20px;
+  }
+  
